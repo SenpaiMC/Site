@@ -586,8 +586,105 @@ transform: translate(-50%, -50%); */
 }
 
 
+/* La cheffe */
 
+#sect-1{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
 
+#sect-1 img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+#text{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    position :absolute;
+    left: 70%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#text h1{
+    font-size: 48px;
+    font-style: normal;
+}
+
+#text h3{
+    font-size: 24px;
+    font-style: normal;
+}
+
+#text hr{
+    width: 10%;
+    border: #ffffff solid 2px;
+}
+
+/* section 2 */
+
+#sect-2{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: rgba(56, 21, 5, 1);
+    display: grid;
+    grid-template-columns: 50% 30%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 16px;
+}
+
+.sect-2_LC{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.sect-2_LC img{
+    width: 70%;
+    height: auto;
+}
+
+.sect-2_LC h1{
+    font-size: 48px;
+}
+
+.sect-2_LC h3{
+    font-size: 24px;
+}
+
+.sect-2_LC hr{
+    width: 15%;
+    border: #000000 solid 2px;
+}
+
+/* Section 4 */
+
+#sect-4{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: rgba(56, 21, 5, 1);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
 
 
 
