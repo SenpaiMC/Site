@@ -1,6 +1,7 @@
 body{
     background-image: image;
     font-family: 'Arial', sans-serif;
+    margin-top: -2%;
 }
 
 header{
@@ -531,6 +532,7 @@ transform: translate(-50%, -50%); */
     width: 100%;
     height: auto;
     text-align: center;
+    object-fit: cover;
 }
 
 .restau2 img{
@@ -686,6 +688,77 @@ transform: translate(-50%, -50%); */
     margin-bottom: 2%;
 }
 
+/* Section 5 */
+
+#sect-5{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    margin-top: 2%;
+    background-color: black;
+    justify-content:center ;
+    color: white;
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+}
+
+#sect-5 #spé img{
+    width: 70%;
+    height: auto;
+}
+
+#sect-5 h1{
+    font-size: 48px;
+}
+
+#sect-5 h3{
+    font-size: 24px;
+}
+
+#sect-5 hr{
+    width: 15%;
+    border: #ffffff solid 2px;
+}
+
+#sect-5 button{
+    background-color: rgba(211, 117, 51, 1);
+    width: 275px;
+    height: 55px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 2%;
+}
+
+#LCfinale{
+    width: 70%;
+    height: 283px;
+    display: grid;
+    grid-template-columns: 65% 30%;
+    justify-content: space-between;
+    justify-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 15%;
+
+}
+
+.sect-5_LC{
+    width: 100%;
+    height: 283px;
+    text-align: center;
+
+    align-content: center;
+}
+
+.sect-5_LC img{
+    width: 100%;
+    height: 283px;
+    object-fit: cover;
+}
 
 
 /* LA CARTE */
@@ -734,6 +807,41 @@ transform: translate(-50%, -50%); */
     text-align: center;
     color: white;
     font-size: 48px;
+}
+
+/* Section 2 */
+
+#section_2{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100% 100%;
+    background-color: #092C4C;
+    text-align: center;
+    color:#381505;
+    ;
+}
+
+.s2-carte #n1 hr:nth-child(2){
+    width: 15%;
+    border: #381505 solid 2px;
+}
+
+#n1 hr:nth-child(4){
+    width: 100%;
+    border: #381505 solid 2px;
+}
+
+#n1 hr:last-child{
+    width: 100%;
+    border: #381505 solid 2px;
+}
+
+.s2-carte{
+    width: 100%;
+    height: auto;
+    background-color: aquamarine;
 }
 
 
